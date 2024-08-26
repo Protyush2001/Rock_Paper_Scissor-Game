@@ -1,0 +1,208 @@
+body{
+    background-color: #89C15E;
+    
+}
+
+.scoreboard{
+width: 800px;
+height: 158px;
+margin-top: 62px;
+margin-left: 360px;
+gap: 0px;
+border-radius: 10px;
+border: 2px solid white;
+display: flex;
+
+
+}
+
+.items{
+    height: 95%;
+    width: 20%;
+    color: white;
+    padding: 15px;
+   
+   
+    
+
+}
+
+.rock,.paper,.scissors{
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 46.88px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    
+}
+
+.score{
+    display: flex;
+    margin-left:300px;
+    margin-top: 15px;
+    
+   
+}
+
+.comp_Score{
+ width: 139px;
+height: 128px;
+
+background-color: white;
+
+border-radius: 9px;
+
+
+
+}
+.text{
+    padding-left: 25px;
+    padding-top: 10px;
+}
+.text1{
+    padding-left: 45px;
+}
+
+.your_Score{
+    width: 139px;
+    height: 128px;
+    background-color: white;
+    border-radius: 9px;
+    margin-left: 10px;
+}
+
+.txt{
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.txt1{
+    padding-left: 45px;
+}
+
+.zero{
+width: 79px;
+height: 63px;
+font-size: 20px;
+margin-left: 60px;
+
+
+/* line-height: 50px; */
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.opt1{
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+    border: 20px solid #0074B6;
+    box-shadow: 0px 1px 62px 0px #00000021;
+}
+
+.opt2{
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+    border: 20px solid #BD00FF;
+    
+
+}
+
+#line1{
+    width: 183px;
+    height: 36px;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 45.7px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: white;
+
+}
+
+#line2{
+    width: 183px;
+    height: 36px;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 45.7px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: white;
+
+}
+
+#line3{
+    width: 183px;
+    height: 36px;
+    font-family: Roboto;
+   background-color: white;
+    font-weight: 800;
+    line-height: 45.7px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+.rules{
+    width: 119px;
+    height: 40px;
+   position: fixed;
+   bottom: 10px;
+   right: 200px;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+
+   
+
+}
+p{
+    margin-top: 8px;
+}
+
+.rules{
+    width: 119px;
+    height: 40px;
+   position: fixed;
+   bottom: 10px;
+   right: 200px;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.next{
+    width: 119px;
+    height: 40px;
+   position: fixed;
+   bottom: 10px;
+   right: 50px;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}

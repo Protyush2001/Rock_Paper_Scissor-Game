@@ -1,0 +1,249 @@
+body{
+    background-color: #89C15E;
+    
+}
+
+.scoreboard{
+width: 800px;
+height: 158px;
+margin-top: 62px;
+margin-left: 360px;
+gap: 0px;
+border-radius: 10px;
+border: 2px solid white;
+display: flex;
+
+
+}
+
+.items{
+    height: 95%;
+    width: 20%;
+    color: white;
+    padding: 15px;
+   
+   
+    
+
+}
+
+.rock,.paper,.scissors{
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 46.88px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    
+}
+
+.score{
+    display: flex;
+    margin-left:300px;
+    margin-top: 15px;
+    
+   
+}
+
+.comp_Score{
+ width: 139px;
+height: 128px;
+
+background-color: white;
+
+border-radius: 9px;
+
+
+
+}
+.text{
+    padding-left: 25px;
+    padding-top: 10px;
+}
+.text1{
+    padding-left: 45px;
+}
+
+.your_Score{
+    width: 139px;
+    height: 128px;
+    background-color: white;
+    border-radius: 9px;
+    margin-left: 10px;
+}
+
+.txt{
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.txt1{
+    padding-left: 45px;
+}
+
+.zero{
+width: 79px;
+height: 63px;
+margin-top: 20px;
+margin-left: 55px;
+font-size: 40px;
+/* line-height: 50px; */
+
+}
+
+
+.container {
+    position: relative; /* This makes the container the reference point for absolute positioning */
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+
+.option{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+.line1, .line2, .line3 {
+    position: absolute;
+   
+}
+
+.line1 {
+   
+    top: 155px;
+    left: 680px;
+    z-index: -1;
+}
+
+.line2 {
+    
+    top: 230px;
+    left: 780px;
+    z-index: -1;
+}
+
+.line3 {
+   
+    top: 230px;
+    left: 650px;
+    z-index: -1;
+}
+
+.Rock{
+width: 110px;
+height: 110px;
+margin-top: 100px;
+margin-left: 550px;
+background-color: white;
+border-radius: 50%;
+border: 20px solid #0074B6;
+}
+
+#option1{
+    padding: 20px 12px;
+
+}
+
+.Scissors{
+    width: 110px;
+    height: 110px;
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color: white;
+    border-radius: 50%;
+    border: 20px solid #BD00FF;
+    }
+    
+#option2{
+        padding: 20px 35px;
+}
+
+.Paper{
+    width: 110px;
+    height: 110px;
+    margin-top: 300px;
+    margin-left: -270px ;
+    background-color: white;
+    border-radius: 50%;
+    border: 20px solid #FFA943;
+}
+        
+#option3{
+    padding: 20px;
+}
+
+.rules-popup {
+    background-color: #2F4F2F; /* Matches the dark green background */
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px solid white;
+    width: 300px;
+    position: fixed;
+    right:20px;
+    bottom: 70px;
+}
+
+.rules-popup h2 {
+    color: white;
+    text-align: center;
+}
+
+.rules-popup ul {
+    list-style-type: none ; /* Removes default bullets */
+    padding-left: 0;
+}
+
+.rules-popup ul li {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 25px; /* Space for the custom bullet */
+}
+
+.rules-popup ul li::before {
+    content: "\25A0"; /* Unicode for black square bullet */
+    color: #FFD700; /* Yellow color for the bullet */
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.close-button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 18px;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.Rule_btn{
+width: 120px;
+height: 40px;
+border-radius: 10px;
+border: 2px solid white;
+position: fixed;
+bottom: 10px;
+right: 10px;
+background-color: #89C15E;
+color: white;
+text-align: justify;
+text-align: center;
+
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+
+
